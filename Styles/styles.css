@@ -44,3 +44,8 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }/*# sourceMappingURL=styles.css.map */
+.img-rounded-circle{
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+}
