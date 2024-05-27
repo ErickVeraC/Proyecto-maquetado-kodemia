@@ -1,14 +1,5 @@
-// Importar funciones y variables de Bootstrap necesarias antes de importar todo
-@import "bootstrap/functions";
-@import "bootstrap/variables"; // Importante: debe importarse después de definir $theme-colors
-
-$theme-colors: map-merge($theme-colors, (
-    "very-pale-purple":rgb(59, 73, 223),
-    "pale-purple":rgb(47, 58, 178),
-) );
-
-// Importar el resto de Bootstrap
-@import "bootstrap/bootstrap";
+    $very-pale-purple:rgb(59, 73, 223);
+    $pale-purple:rgb(47, 58, 178);
 
 * {
     margin: 0;
@@ -19,4 +10,39 @@ $theme-colors: map-merge($theme-colors, (
 body {
     background-color: #f5f6f5;
     width: 100vw;
+}
+
+.finder {
+    height: 4rem;
+}
+
+.finder-element {
+    height: 100%;
+}
+
+.btn-outline-purple {
+    border: 2px solid $very-pale-purple;
+    color: $very-pale-purple;
+    width: 15%;
+    font-size: .9rem;
+}
+
+.post:hover {
+    background-color: $very-pale-purple;
+    color: white;
+    text-decoration: underline;
+}
+
+.icon-placeholder {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 700;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
 }
