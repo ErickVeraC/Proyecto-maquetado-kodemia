@@ -69,8 +69,7 @@ body {
 .badge-warning {
     background-color: #FFC107;
 }
-  
-  .side-btns{
+.side-btns{
     color: black;
     width: 100%;
     text-align: left;
@@ -81,6 +80,8 @@ body {
     text-align: left;
 }
 
+=======
+
 .font-comment {
     font-size: smaller;
 }
@@ -88,3 +89,27 @@ body {
 .comment-hover:hover{
     color: $very-pale-purple;
 }  
+/*# sourceMappingURL=styles.css.map */
+
+.redes-sociales{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  border: none;
+
+  
+}
+.icon-rsocial{
+  width: 30px;
+  height: 30px;
+  }
+
+  .Scrollbar {
+    height: 5em;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    border: 1px solid;
+  }
