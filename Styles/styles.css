@@ -74,13 +74,27 @@ body {
   background-color: #FFC107;
 }
 
-.side-btns {
+.side-btn {
   color: black;
   width: 100%;
   text-align: left;
+  text-decoration: none;
+}
+.side-btn:hover {
+  background-color: rgb(235, 221, 253);
+  text-align: left;
+  color: darkblue;
+  text-decoration: underline;
+}
+.side-btn a {
+  color: black;
+  text-decoration: none;
+}
+.side-btn a:hover {
+  color: darkblue;
+  text-decoration: underline;
 }
 
-.side-btns:hover {
-  background-color: rgb(59, 73, 223);
-  text-align: left;
+.side-btn--icon {
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
