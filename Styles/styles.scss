@@ -65,13 +65,10 @@ body {
     word-wrap: break-word;
     white-space: normal;
 }
-.badge-secondary {
-    background-color: #6C757D;
-}
+
 .badge-warning {
     background-color: #FFC107;
 }
-  
   .side-btn{
     color: black;
     width: 100%;
@@ -88,9 +85,35 @@ body {
     color: darkblue;
     text-decoration: underline;
     }
+}}
+.font-comment {
+    font-size: smaller;
 }
+
+.comment-hover:hover{
+    color: $very-pale-purple;
+}  
+/*# sourceMappingURL=styles.css.map */
+
+.redes-sociales{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  border: none;
+
+  
+}
+.icon-rsocial{
+  width: 30px;
+  height: 30px;
   }
 
-  .side-btn--icon{
-    text-decoration: none;
+  .Scrollbar {
+    height: 5em;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    border: 1px solid;
   }
