@@ -51,3 +51,27 @@ body {
     height: 40px;
     width: 40px;
 }
+
+.card-header {
+    background-color: #F8F9FA;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.badge-secondary {
+    background-color: #6C757D;
+}
+.badge-warning {
+    background-color: #FFC107;
+<<<<<<< .merge_file_vo69YX
+}
+=======
+} 
+>>>>>>> .merge_file_AQU6kw
