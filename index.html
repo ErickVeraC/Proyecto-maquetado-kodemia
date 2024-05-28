@@ -25,18 +25,67 @@
         class="row navbar finder sticky-top navbar-light bg-light bg-body border-bottom"
       >
         <div class="col-12 d-flex flex-row gap-3 finder-element">
+          <div class="dropdown">
+            <button class="btn btn-light btn-secondary dropdown-toggle d-block d-lg-none" data-bs-toggle="dropdown">
+              <img class="menu-icon" src="/Images/menu.png" alt="menu">
+            </button>
+            <ul class="dropdown-menu">
+              <li><h6 class="dropdown-header">DEV Community</h6></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127968;</span>
+                <a href="#">Home</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128229;</span>
+                <a href="#">Reading List</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127897;</span>
+                <a href="#">Podcast</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127909;</span>
+                <a href="#">Videos</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127991;</span>
+                <a href="#">Tags</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128161;</span>
+                <a href="#">DEV Help</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128717;</span>
+                <a href="#">Forem Shop</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#10084;</span>
+                <a href="#">Advertise on DEV</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127942;</span>
+                <a href="#">DEV Challenges</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#10024;</span>
+                <a href="#">DEV Showcase</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon"
+                ><img
+                  src="./Images/DevIcon.jpg"
+                  id="icondev"
+                  alt="Icono de DEV"
+                  width="20px"
+              /></span>
+              <a href="#">About</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128239;</span>
+                <a href="#">Contact</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128214;</span>
+                <a href="#">Guides</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#129300;</span>
+                <a href="#">Software comparisons</a></li>
+              <li><h6 class="dropdown-header">Other</h6></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128077;</span>
+                <a href="#">Code of Conduct</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#129299;</span>
+                <a href="#">Privacy Policy</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128064;</span>
+                <a href="#">Terms of use</a></li>
+            </ul>
+          </div>
           <img
             src="/Images/resized_logo_UQww2soKuUsjaOGNB38o.png"
             alt="dev-logo"
           />
           <input
-            class="form-control me-2 icon-placeholder finder-element"
+            class="form-control me-2 icon-placeholder finder-element d-none d-lg-block"
             type="search"
             placeholder=" Search..."
             aria-label="Search"
           />
           <button
-            class="btn btn-outline-purple finder-element post"
+            class="btn btn-outline-purple finder-element post d-none d-lg-block"
             type="submit"
           >
             Create Post
@@ -46,14 +95,14 @@
             width="3rem"
             height="3rem"
             fill="currentColor"
-            class="bi bi-bell"
+            class="bi bi-bell d-none d-lg-block"
             viewBox="0 0 16 16"
           >
             <path
               d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"
             />
           </svg>
-          <button type="button" class="profile-img finder-element">
+          <button type="button" class="profile-img finder-element ms-auto">
             <img
               src="/Images/Jake_Joven_.webp"
               alt="profile-img"
