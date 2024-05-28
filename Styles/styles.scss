@@ -9,7 +9,7 @@
 
 body {
     background-color: #f5f6f5;
-    width: 100vw;
+    width: 100%;
 }
 
 .finder {
@@ -35,7 +35,7 @@ body {
 
 .icon-placeholder {
     font-family: "Font Awesome 5 Free"; 
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .profile-img {
@@ -81,4 +81,66 @@ body {
     justify-content: space-around;
     margin: 1.5rem;
     color: blue;
+  }
+
+.card-header {
+    background-color: #F8F9FA;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.badge-warning {
+    background-color: #FFC107;
+}
+.side-btns{
+    color: black;
+    width: 100%;
+    text-align: left;
+}
+
+.side-btns:hover{
+    background-color: $very-pale-purple;
+    text-align: left;
+}
+
+=======
+
+.font-comment {
+    font-size: smaller;
+}
+
+.comment-hover:hover{
+    color: $very-pale-purple;
+}  
+/*# sourceMappingURL=styles.css.map */
+
+.redes-sociales{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  border: none;
+
+  
+}
+.icon-rsocial{
+  width: 30px;
+  height: 30px;
+  }
+
+  .Scrollbar {
+    height: 5em;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    border: 1px solid;
   }

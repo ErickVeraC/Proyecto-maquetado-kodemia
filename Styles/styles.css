@@ -6,7 +6,7 @@
 
 body {
   background-color: #f5f6f5;
-  width: 100vw;
+  width: 100%;
 }
 
 .finder {
@@ -32,7 +32,7 @@ body {
 
 .icon-placeholder {
   font-family: "Font Awesome 5 Free";
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .profile-img {
@@ -43,6 +43,9 @@ body {
   padding: 0;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.img-rpo {
 }
 
 .img-rounded-circle {
@@ -79,6 +82,47 @@ body {
   height: 40px;
   width: 40px;
 }
+
+.card-header {
+  background-color: #F8F9FA;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.badge-warning {
+  background-color: #FFC107;
+}
+
+.side-btns {
+  color: black;
+  width: 100%;
+  text-align: left;
+}
+
+.side-btns:hover {
+  background-color: rgb(59, 73, 223);
+  text-align: left;
+
+=======
+}
+
+.font-comment {
+  font-size: smaller;
+}
+
+.comment-hover:hover {
+  color: rgb(59, 73, 223);
+}/*# sourceMappingURL=styles.css.map */
+
 
 .flex-content {
   display: flex;
