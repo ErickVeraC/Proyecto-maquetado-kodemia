@@ -66,10 +66,6 @@ body {
   white-space: normal;
 }
 
-.badge-secondary {
-  background-color: #6C757D;
-}
-
 .badge-warning {
   background-color: #FFC107;
 }
@@ -83,27 +79,14 @@ body {
 .side-btns:hover {
   background-color: rgb(59, 73, 223);
   text-align: left;
-}/*# sourceMappingURL=styles.css.map */
 
-.redes-sociales{
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-content: center;
-  border: none;
-
-  
+=======
 }
-.icon-rsocial{
-  width: 30px;
-  height: 30px;
-  }
 
-  .Scrollbar {
-    height: 5em;
-    line-height: 1em;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    width: 100%;
-    border: 1px solid;
-  }
+.font-comment {
+  font-size: smaller;
+}
+
+.comment-hover:hover {
+  color: rgb(59, 73, 223);
+}/*# sourceMappingURL=styles.css.map */
