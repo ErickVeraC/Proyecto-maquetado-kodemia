@@ -6,7 +6,7 @@
 
 body {
   background-color: #f5f6f5;
-  width: 100vw;
+  width: 100%;
 }
 
 .finder {
@@ -51,17 +51,6 @@ body {
   width: 40px;
 }
 
-<<<<<<< HEAD
-.side-btns {
-  color: black;
-  width: 100%;
-  text-align: left;
-}
-
-.side-btns:hover {
-  background-color: rgb(59, 73, 223);
-  text-align: left;
-=======
 .card-header {
   background-color: #F8F9FA;
   font-weight: bold;
@@ -83,5 +72,15 @@ body {
 
 .badge-warning {
   background-color: #FFC107;
->>>>>>> main
+}
+
+.side-btns {
+  color: black;
+  width: 100%;
+  text-align: left;
+}
+
+.side-btns:hover {
+  background-color: rgb(59, 73, 223);
+  text-align: left;
 }/*# sourceMappingURL=styles.css.map */
