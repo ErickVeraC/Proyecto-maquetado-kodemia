@@ -102,17 +102,24 @@ body {
   background-color: #FFC107;
 }
 
-.side-btns {
+.side-btn {
   color: black;
   width: 100%;
   text-align: left;
+  text-decoration: none;
 }
-
-.side-btns:hover {
-  background-color: rgb(59, 73, 223);
+.side-btn:hover {
+  background-color: rgb(235, 221, 253);
   text-align: left;
-
-=======
+  color: darkblue;
+  text-decoration: underline;
+}
+.side-btn a {
+  text-decoration: none;
+}
+.side-btn a:hover {
+  color: darkblue;
+  text-decoration: underline;
 }
 
 .font-comment {
@@ -121,8 +128,30 @@ body {
 
 .comment-hover:hover {
   color: rgb(59, 73, 223);
-}/*# sourceMappingURL=styles.css.map */
+}
 
+
+.redes-sociales {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  border: none;
+}
+
+.icon-rsocial {
+  width: 30px;
+  height: 30px;
+}
+
+.Scrollbar {
+  height: 5em;
+  line-height: 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid;
+}/*# sourceMappingURL=styles.css.map */
 
 .flex-content {
   display: flex;
