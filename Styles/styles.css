@@ -6,7 +6,7 @@
 
 body {
   background-color: #f5f6f5;
-  width: 100vw;
+  width: 100%;
 }
 
 .finder {
@@ -32,7 +32,7 @@ body {
 
 .icon-placeholder {
   font-family: "Font Awesome 5 Free";
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .profile-img {
@@ -72,4 +72,15 @@ body {
 
 .badge-warning {
   background-color: #FFC107;
+}
+
+.side-btns {
+  color: black;
+  width: 100%;
+  text-align: left;
+}
+
+.side-btns:hover {
+  background-color: rgb(59, 73, 223);
+  text-align: left;
 }/*# sourceMappingURL=styles.css.map */
