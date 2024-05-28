@@ -65,9 +65,7 @@ body {
     word-wrap: break-word;
     white-space: normal;
 }
-.badge-secondary {
-    background-color: #6C757D;
-}
+
 .badge-warning {
     background-color: #FFC107;
 }
@@ -82,3 +80,11 @@ body {
     background-color: $very-pale-purple;
     text-align: left;
 }
+
+.font-comment {
+    font-size: smaller;
+}
+
+.comment-hover:hover{
+    color: $very-pale-purple;
+}  
