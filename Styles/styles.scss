@@ -117,3 +117,36 @@ body {
     width: 100%;
     border: 1px solid;
   }
+
+  .card {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.badge {
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+}
+
+.fa-heart, .fa-comment {
+    margin-right: 0.25rem;
+}
+
+.text-muted {
+    font-size: 0.85rem;
+}
+
+.rounded-circle {
+    width: 40px;
+    height: 40px;
+}
