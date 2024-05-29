@@ -94,39 +94,36 @@ body {
     text-decoration: underline;
     }
 }}
+
 .font-comment {
     font-size: smaller;
+    &:hover{
+        color: $very-pale-purple;
+    }  
 }
 
-.comment-hover:hover{
-    color: $very-pale-purple;
-}  
+
 /*# sourceMappingURL=styles.css.map */
 
-.redes-sociales{
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-content: center;
-  border: none;
-
-  
+.left-bar {
+    width: 100%;
 }
+
 .icon-rsocial{
   width: 30px;
   height: 30px;
+  border: none;
   }
 
-  .Scrollbar {
-    height: 5em;
+.Scrollbar {
+    height: 20em;
     line-height: 1em;
     overflow-x: hidden;
     overflow-y: scroll;
     width: 100%;
-    border: 1px solid;
   }
 
-  .card {
+.card {
     border: 1px solid #e3e3e3;
     border-radius: 10px;
     padding: 1rem;
