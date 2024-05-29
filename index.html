@@ -25,18 +25,67 @@
         class="row navbar finder sticky-top navbar-light bg-light bg-body border-bottom"
       >
         <div class="col-12 d-flex flex-row gap-3 finder-element">
+          <div class="dropdown">
+            <button class="btn btn-light btn-secondary dropdown-toggle d-block d-lg-none" data-bs-toggle="dropdown">
+              <img class="menu-icon" src="/Images/menu.png" alt="menu">
+            </button>
+            <ul class="dropdown-menu">
+              <li><h6 class="dropdown-header">DEV Community</h6></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127968;</span>
+                <a href="#">Home</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128229;</span>
+                <a href="#">Reading List</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127897;</span>
+                <a href="#">Podcast</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127909;</span>
+                <a href="#">Videos</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127991;</span>
+                <a href="#">Tags</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128161;</span>
+                <a href="#">DEV Help</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128717;</span>
+                <a href="#">Forem Shop</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#10084;</span>
+                <a href="#">Advertise on DEV</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#127942;</span>
+                <a href="#">DEV Challenges</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#10024;</span>
+                <a href="#">DEV Showcase</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon"
+                ><img
+                  src="./Images/DevIcon.jpg"
+                  id="icondev"
+                  alt="Icono de DEV"
+                  width="20px"
+              /></span>
+              <a href="#">About</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128239;</span>
+                <a href="#">Contact</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128214;</span>
+                <a href="#">Guides</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#129300;</span>
+                <a href="#">Software comparisons</a></li>
+              <li><h6 class="dropdown-header">Other</h6></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128077;</span>
+                <a href="#">Code of Conduct</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#129299;</span>
+                <a href="#">Privacy Policy</a></li>
+              <li class="dropdown btn side-btn"><span style="font-size: 20px side-btn--icon">&#128064;</span>
+                <a href="#">Terms of use</a></li>
+            </ul>
+          </div>
           <img
             src="/Images/resized_logo_UQww2soKuUsjaOGNB38o.png"
             alt="dev-logo"
           />
           <input
-            class="form-control me-2 icon-placeholder finder-element"
+            class="form-control me-2 icon-placeholder finder-element d-none d-lg-block"
             type="search"
             placeholder=" Search..."
             aria-label="Search"
           />
           <button
-            class="btn btn-outline-purple finder-element post"
+            class="btn btn-outline-purple finder-element post d-none d-lg-block"
             type="submit"
           >
             Create Post
@@ -46,14 +95,14 @@
             width="3rem"
             height="3rem"
             fill="currentColor"
-            class="bi bi-bell"
+            class="bi bi-bell d-none d-lg-block"
             viewBox="0 0 16 16"
           >
             <path
               d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"
             />
           </svg>
-          <button type="button" class="profile-img finder-element">
+          <button type="button" class="profile-img finder-element ms-auto">
             <img
               src="/Images/Jake_Joven_.webp"
               alt="profile-img"
@@ -63,9 +112,9 @@
         </div>
       </header>
       <div class="row mt-3">
-        <div class="col-12 col-md-3 d-none d-md-flex">
-          <nav class="container-menu">
-            <div class="card" style="width: col-2">
+        <div class="col-12 col-md-3 d-none d-md-flex gap-3 bg-transparent">
+          <nav class="container-menu bg-light left-bar">
+            <div class="card mb-3">
               <div class="card-body">
                 <h5 class="card-title">
                   DEV Community is a community of 1,513,398 amazing developers
@@ -79,165 +128,185 @@
                   class="btn btn-outline-primary d-flex justify-content-center"
                   >Create an account</a
                 >
-                <a href="" class="btn d-flex justify-content-center">Log in</a>
+                <a href="" class="btn d-flex justify-content-center side-btn"
+                  >Log in</a
+                >
               </div>
             </div>
-            <ul class="nav-list">
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#127968;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Home</a
-                >
+            <ul class="nav-list mb-3">
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#127968;</span>
+                <a href="#">Home</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#128229;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Reading List</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#128229;</span>
+                <a href="#">Reading List</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#127897;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Podcast</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#127897;</span>
+                <a href="#">Podcast</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#127909;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Videos</a
-                >
+
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#127909;</span>
+                <a href="#">Videos</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#127991;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Tags</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#127991;</span>
+                <a href="#">Tags</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#128161;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >DEV Help</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#128161;</span>
+                <a href="#">DEV Help</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#128717;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Forem Shop</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#128717;</span>
+                <a href="#">Forem Shop</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#10084;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Advertise on DEV</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#10084;</span>
+                <a href="#">Advertise on DEV</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#127942;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >DEV Challenges</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#127942;</span>
+                <a href="#">DEV Challenges</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#10024;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >DEV Showcase</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#10024;</span>
+                <a href="#">DEV Showcase</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px"
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon"
                   ><img
                     src="./Images/DevIcon.jpg"
                     id="icondev"
                     alt="Icono de DEV"
                     width="20px"
                 /></span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >About</a
-                >
+                <a href="#">About</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#128239;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Contact</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#128239;</span>
+                <a href="#">Contact</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#128214;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Guides</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#128214;</span>
+                <a href="#">Guides</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#129300;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Software comparisons</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#129300;</span>
+                <a href="#">Software comparisons</a>
               </button>
               <p>Other</p>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#128077;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Code of Conduct</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#128077;</span>
+                <a href="#">Code of Conduct</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#129299;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Privacy Policy</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#129299;</span>
+                <a href="#">Privacy Policy</a>
               </button>
-              <button type="button" class="side-btns btn btn-light">
-                <span style="font-size: 20px">&#128064;</span>
-                <a
-                  href="#"
-                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                  >Terms of use</a
-                >
+              <button type="button" class="btn side-btn">
+                <span style="font-size: 20px side-btn--icon">&#128064;</span>
+                <a href="#">Terms of use</a>
               </button>
             </ul>
-            <div>
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
+            <div class="d-flex justify-content-between mb-3">
+              <button class="border-0">
+                <a href="#">
+                  <img
+                    class="icon-rsocial"
+                    src="./Images/twiter.png"
+                  />
+                </a>
+              </button>
+              <button class="border-0">
+                <a href="#">
+                  <img
+                    class="icon-rsocial"
+                    src="./Images/facebook.png"
+                  />
+                </a>
+              </button>
+              <button class="border-0">
+                <a href="#">
+                  <img
+                    class="icon-rsocial"
+                    src="./Images/github.png"
+                  />
+                </a>
+              </button>
+              <button class="border-0">
+                <a href="#">
+                  <img
+                    class="icon-rsocial"
+                    src="./Images/instagram.png"
+                  />
+                </a>
+              </button>
+              <button class="border-0">
+                <a href="#">
+                  <img
+                    class="icon-rsocial"
+                    src="./Images/twitch.png"
+                  />
+                </a>
+              </button>
+              <button class="border-0">
+                <a href="#">
+                  <img
+                    class="icon-rsocial"
+                    src="./Images/mastodon.png"
+                  />
+                </a>
+              </button>
+          </div>
+            <div class="container-fluid row">
+              <div class="col-12 align-self-start">
+                <h4>Popular Tags</h4>
+              </div>
+              <div
+                id="detalleseleccion"
+                name="detalleseleccion"
+                class="Scrollbar border-0 mb-3 bg-transparent d-flex flex-column gap-3"
+              >
+                <button class="side-btn border-0 bg-transparent">#webdev</button>
+                <button class="side-btn border-0 bg-transparent">#javascript</button>
+                <button class="side-btn border-0 bg-transparent">#beginners</button>
+                <button class="side-btn border-0 bg-transparent">#productivity</button>
+                <button class="side-btn border-0 bg-transparent">#devops</button>
+                <button class="side-btn border-0 bg-transparent">#aws</button>
+                <button class="side-btn border-0 bg-transparent">#opensource</button>
+                <button class="side-btn border-0 bg-transparent">#discuss</button>
+                <button class="side-btn border-0 bg-transparent">#css</button>
+                <button class="side-btn border-0 bg-transparent">#typescript</button>
+                <button class="side-btn border-0 bg-transparent">#career</button>
+                <button class="side-btn border-0 bg-transparent">#learning</button>
+                <button class="side-btn border-0 bg-transparent">#news</button>
+                <button class="side-btn border-0 bg-transparent">#machinelearning</button>
+                <button class="side-btn border-0 bg-transparent">#database</button>
+                <button class="side-btn border-0 bg-transparent">#node</button>
+                <button class="side-btn border-0 bg-transparent">#java</button>
+                <button class="side-btn border-0 bg-transparent">#cloud</button>
+                <button class="side-btn border-0 bg-transparent">#development</button>
+                <button class="side-btn border-0 bg-transparent">#frontend</button>
+                <button class="side-btn border-0 bg-transparent">#html</button>
+                <button class="side-btn border-0 bg-transparent">#datascience</button>
+                <button class="side-btn border-0 bg-transparent">#testing</button>
+                <button class="side-btn border-0 bg-transparent">#php</button>
+                <button class="side-btn border-0 bg-transparent">#security</button>
+              </div>
             </div>
+            <div class="card" style="width: col-2">
+              <div class="card-body">
+                <p class="card-text">
+                  <a href="#">DEV Community</a> A constructive and inclusive social network for software developers. With you every step of your journey.
+                </p>
+                <p>Built on <a href="#">Forem</a> — the <a href="#">open source</a> software that powers <a href="#">DEV</a> and other inclusive communities.</p>
+                <p>Made with love and <a href="#">Ruby on Rails.</a> DEV Community © 2016 - 2024.</p>
           </nav>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 d-block">
           <div class="card gap-3">
             <img src="Images/img1.png" class="card-img-top" alt="img1.png" />
             <div class="d-flex position-relative">
@@ -305,46 +374,184 @@
               <a href="#" class="btn btn-primary">Empezar ahora</a>
             </div>
           </div>
+          <div class="row mt-3">
+            <div class="col-12">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="/Images/73.jpg" alt="Anita Olsen" class="rounded-circle me-2">
+                            <div>
+                                <strong>Anita Olsen</strong> • <span class="text-muted">May 28</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-primary">What is the Best way to Learn to Think Like a Programmer?</h5>
+                        <div class="mb-2">
+                            <span class="badge bg-success">#discuss</span>
+                            <span class="badge bg-secondary">#learning</span>
+                            <span class="badge bg-secondary">#programming</span>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <span class="me-3"><i class="fas fa-heart"></i> 7 reactions</span>
+                                <span><i class="fas fa-comment"></i> 5 comments</span>
+                            </div>
+                            <div class="text-muted">1 min read <i class="fas fa-bookmark"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="/Images/80.jpg" alt="Leonardo Montini" class="rounded-circle me-2">
+                            <div>
+                                <strong>Leonardo Montini</strong> • <span class="text-muted">May 28</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-primary">2 Colors Extensions to make Visual Studio Code even better!</h5>
+                        <div class="mb-2">
+                            <span class="badge bg-primary">#vscode</span>
+                            <span class="badge bg-secondary">#programming</span>
+                            <span class="badge bg-secondary">#productivity</span>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <span class="me-3"><i class="fas fa-heart"></i> 14 reactions</span>
+                                <span><i class="fas fa-comment"></i> 2 comments</span>
+                            </div>
+                            <div class="text-muted">3 min read <i class="fas fa-bookmark"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-12">
+                      <div class="card mb-3">
+                          <div class="card-body">
+                              <div class="d-flex align-items-center mb-2">
+                                  <img src="/Images/36.jpg" alt="Rabin Otieno" class="rounded-circle me-2">
+                                  <div>
+                                      <strong>Rabin Otieno</strong> • <span class="text-muted">May 26 (2 days ago)</span>
+                                  </div>
+                              </div>
+                              <h5 class="card-title">Are You Writing Your Git Commit Messages Properly?</h5>
+                              <div class="mb-2">
+                                  <span class="badge bg-secondary">#git</span>
+                                  <span class="badge bg-secondary">#developer</span>
+                                  <span class="badge bg-secondary">#productivity</span>
+                              </div>
+                              <div class="d-flex align-items-center justify-content-between">
+                                  <div>
+                                      <span class="me-3"><i class="fas fa-heart"></i> 108 Reactions</span>
+                                      <span><i class="fas fa-comment"></i> 39 Comments</span>
+                                  </div>
+                                  <div class="text-muted">3 min read <i class="fas fa-bookmark"></i></div>
+                              </div>
+                              <hr>
+                              <div class="d-flex align-items-start mb-2">
+                                  <img src="/Images/43.jpg" alt="Thomas Broyer" class="rounded-circle me-2">
+                                  <div>
+                                      <strong>Thomas Broyer</strong> • <span class="text-muted">9 hours ago</span>
+                                      <p class="mb-1">I'm afraid your first 2 examples aren't actually written properly, in that the description doesn't really convey what the commit does and one has to go read the body (which requires additional user actions when p...</p>
+                                      <a href="#">See more</a>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-start">
+                                  <img src="/Images/5.jpg" alt="Akindejihill" class="rounded-circle me-2">
+                                  <div>
+                                      <strong>Akindejihill</strong> • <span class="text-muted">22 hours ago</span>
+                                      <p>The non-conformist in me is yelling "You can't tell me how to write my commit's FU! finger. While the part of me that wants to get a job is somewhat grateful, yet still put off. Future experienced me who knows what pip...</p>
+                                  </div>
+                              </div>
+                              <a href="#">See all 39 comments</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>        
+            </div>
+        </div>
         </div>
         <div class="col-12 col-md-3 d-none d-md-flex flex-column">
           <div class="card mb-3">
             <div class="card-header">Active discussions</div>
             <ul class="list-group list-group-flush">
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex flex-column align-items-start gap-3"
               >
-                Frontend resources!
-                <span class="badge badge-pill badge-secondary"
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  Frontend resources!</a
+                >
+                <span
+                  class="bg-transparent text-black-50 text-muted font-comment"
                   >24 comments</span
                 >
               </li>
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex justify-content-between flex-column align-items-start gap-3"
               >
-                Welcome Thread - v277
-                <span class="badge badge-pill badge-secondary"
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  Welcome Thread - v277</a
+                >
+                <span
+                  class="bg-transparent text-black-50 text-muted font-comment"
                   >202 comments</span
                 >
               </li>
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex justify-content-between flex-column align-items-start gap-3"
               >
-                The Top 6 CSS Cheatsheets that will Save You Hours
-                <span class="badge badge-pill badge-secondary"
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  The Top 6 CSS Cheatsheets that will Save You Hours</a
+                >
+                <span
+                  class="bg-transparent text-black-50 text-muted font-comment"
                   >54 comments</span
                 >
               </li>
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex justify-content-between flex-column align-items-start gap-3"
               >
-                Mastering Custom JS Objects: A Comprehensive Guide.
-                <span class="badge badge-pill badge-secondary">1 comment</span>
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  Mastering Custom JS Objects: A Comprehensive Guide.</a
+                >
+                <span
+                  class="bg-transparent text-black-50 text-muted font-comment"
+                  >1 comment</span
+                >
               </li>
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex justify-content-between flex-column align-items-start gap-3"
               >
-                How to Hide Scrollbar Using CSS?
-                <span class="badge badge-pill badge-secondary">3 comments</span>
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  How to Hide Scrollbar Using CSS?</a
+                >
+                <span
+                  class="bg-transparent text-black-50 text-muted font-comment"
+                  >3 comments</span
+                >
               </li>
             </ul>
           </div>
@@ -352,37 +559,79 @@
             <div class="card-header">#discuss</div>
             <ul class="list-group list-group-flush">
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex justify-content-between flex-column align-items-start gap-3"
               >
-                My first DEV community post
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  My first DEV community post</a
+                >
                 <span class="badge badge-pill badge-warning">New</span>
               </li>
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex justify-content-between flex-column align-items-start gap-3"
               >
-                What was your win this week?
-                <span class="badge badge-pill badge-secondary"
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  What was your win this week?</a
+                >
+                <span
+                  class="bg-transparent text-black-50 text-muted font-comment"
                   >49 comments</span
                 >
               </li>
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex justify-content-between flex-column align-items-start gap-3"
               >
-                Web3 and the Democratization of the Internet
-                <span class="badge badge-pill badge-secondary">1 comment</span>
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  Web3 and the Democratization of the Internet</a
+                >
+                <span
+                  class="bg-transparent text-black-50 text-muted font-comment"
+                  >1 comment</span
+                >
               </li>
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex justify-content-between flex-column align-items-start gap-3"
               >
-                Deep dive Demystifying JSON, BOSN and GSON
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  Deep dive Demystifying JSON, BOSN and GSON</a
+                >
                 <span class="badge badge-pill badge-warning">New</span>
               </li>
               <li
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="list-group-item d-flex justify-content-between flex-column align-items-start gap-3"
               >
-                Share Your AI Insights: How Do You Use ChatGPT for Work and
-                Studying?
-                <span class="badge badge-pill badge-secondary">1 comment</span>
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-body text-decoration-none comment-hover"
+                >
+                  Share Your AI Insights: How Do You Use ChatGPT for Work and
+                  Studying?</a
+                >
+                <span
+                  class="bg-transparent text-black-50 text-muted font-comment"
+                  >1 comment</span
+                >
               </li>
             </ul>
           </div>

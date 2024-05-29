@@ -17,6 +17,14 @@ body {
   height: 100%;
 }
 
+.dropdown-toggle::after {
+  content: none;
+}
+
+.menu-icon {
+  height: 20px;
+}
+
 .btn-outline-purple {
   border: 2px solid rgb(59, 73, 223);
   color: rgb(59, 73, 223);
@@ -66,21 +74,85 @@ body {
   white-space: normal;
 }
 
-.badge-secondary {
-  background-color: #6C757D;
-}
-
 .badge-warning {
   background-color: #FFC107;
 }
 
-.side-btns {
+.side-btn {
   color: black;
   width: 100%;
   text-align: left;
+  text-decoration: none;
+}
+.side-btn:hover {
+  background-color: rgb(235, 221, 253);
+  text-align: left;
+  color: darkblue;
+  text-decoration: underline;
+}
+.side-btn a {
+  text-decoration: none;
+}
+.side-btn a:hover {
+  color: darkblue;
+  text-decoration: underline;
 }
 
-.side-btns:hover {
-  background-color: rgb(59, 73, 223);
-  text-align: left;
+.font-comment {
+  font-size: smaller;
+}
+.font-comment:hover {
+  color: rgb(59, 73, 223);
+}
+
+
+.left-bar {
+  width: 100%;
+}
+
+.icon-rsocial {
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+.Scrollbar {
+  height: 20em;
+  line-height: 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+}
+
+.fa-heart, .fa-comment {
+  margin-right: 0.25rem;
+}
+
+.text-muted {
+  font-size: 0.85rem;
+}
+
+.rounded-circle {
+  width: 40px;
+  height: 40px;
 }/*# sourceMappingURL=styles.css.map */
