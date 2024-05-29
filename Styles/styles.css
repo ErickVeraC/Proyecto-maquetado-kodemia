@@ -137,25 +137,73 @@ body {
 .font-comment {
   font-size: smaller;
 }
-.font-comment:hover {
+
+.comment-hover:hover {
   color: rgb(59, 73, 223);
 }
 
 
-.left-bar {
-  width: 100%;
+.redes-sociales {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  border: none;
 }
 
 .icon-rsocial {
   width: 30px;
   height: 30px;
-  border: none;
 }
 
 .Scrollbar {
-  height: 20em;
+  height: 5em;
   line-height: 1em;
   overflow-x: hidden;
   overflow-y: scroll;
   width: 100%;
+  border: 1px solid;
+}
+
+.button {
+  border: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  color: blue;
+}
+
+.card {
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+}
+
+.fa-heart, .fa-comment {
+  margin-right: 0.25rem;
+}
+
+.text-muted {
+  font-size: 0.85rem;
+}
+
+.rounded-circle {
+  width: 40px;
+  height: 40px;
 }/*# sourceMappingURL=styles.css.map */
