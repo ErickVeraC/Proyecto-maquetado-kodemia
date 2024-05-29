@@ -45,9 +45,6 @@ body {
      object-fit: cover;
 }
 
-.img-rpo {
-}
-
 .img-rounded-circle {
   border-radius: 100%;
   height: 40px;
@@ -81,6 +78,13 @@ body {
   border-radius: 100%;
   height: 40px;
   width: 40px;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5rem;
+  color: blue;
 }
 
 .card-header {
@@ -151,11 +155,13 @@ body {
   overflow-y: scroll;
   width: 100%;
   border: 1px solid;
-}/*# sourceMappingURL=styles.css.map */
+}
 
-.flex-content {
+.button {
+  border: 0;
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  margin: 1.5rem;
-  color: blue;
+  cursor: pointer;
+  transition-duration: 0.3s;
 }/*# sourceMappingURL=styles.css.map */

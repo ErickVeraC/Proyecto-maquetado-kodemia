@@ -148,3 +148,11 @@ body {
     width: 100%;
     border: 1px solid;
   }
+  .button{
+    border: 0;
+    width: 100%;
+    display: flex;
+   justify-content: space-around;
+    cursor: pointer;
+    transition-duration: .3s;
+  }
