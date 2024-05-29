@@ -122,6 +122,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   width: 100%;
+  padding-left: 3rem;
 }
 
 .card {
@@ -155,6 +156,7 @@ body {
 .rounded-circle {
   width: 40px;
   height: 40px;
+
 }
 
 .btn-card {
@@ -177,3 +179,12 @@ body {
   display: flex;
   justify-content: space-between;
 }/*# sourceMappingURL=styles.css.map */
+
+}/*# sourceMappingURL=styles.css.map */
+
+.subtitle-bar-left{
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
