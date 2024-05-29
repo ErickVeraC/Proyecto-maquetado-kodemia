@@ -137,39 +137,25 @@ body {
 .font-comment {
   font-size: smaller;
 }
-
-.comment-hover:hover {
+.font-comment:hover {
   color: rgb(59, 73, 223);
 }
 
 
-.redes-sociales {
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-content: center;
-  border: none;
+.left-bar {
+  width: 100%;
 }
 
 .icon-rsocial {
   width: 30px;
   height: 30px;
+  border: none;
 }
 
 .Scrollbar {
-  height: 5em;
+  height: 20em;
   line-height: 1em;
   overflow-x: hidden;
   overflow-y: scroll;
   width: 100%;
-  border: 1px solid;
-}
-
-.button {
-  border: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  cursor: pointer;
-  transition-duration: 0.3s;
 }/*# sourceMappingURL=styles.css.map */
