@@ -136,8 +136,8 @@ body {
 }
 
 .card-title {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .badge {
@@ -156,6 +156,7 @@ body {
 .rounded-circle {
   width: 40px;
   height: 40px;
+
 }/*# sourceMappingURL=styles.css.map */
 
 .subtitle-bar-left{
@@ -163,3 +164,32 @@ body {
   font-weight: bold;
   padding-left: 2rem;
 }
+
+}
+
+.btn-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+  --bg: var(--button-ghost-bg);
+  --bg-hover: var(--button-ghost-bg-hover);
+  --color: var(--button-ghost-color);
+  --color-hover: var(--button-ghost-color-hover);
+  --shadow: none;
+  --shadow-hover: none;
+  --bg-inverted: var(--button-ghost-inverted-bg);
+  --bg-inverted-hover: var(--button-ghost-inverted-bg-hover);
+  --color-inverted: var(--button-ghost-inverted-color);
+  --color-inverted-hover: var(--button-ghost-inverted-color-hover);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crayons-story_tags {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=styles.css.map */
+
